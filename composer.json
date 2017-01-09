@@ -1,25 +1,25 @@
 {
-	"name": "boparaiamrit/omnipay",
-	"description": "Integerates Omnipay with Laravel and provides an easy configuration.",
-	"keywords": [
-		"omnipay",
-		"payments",
-		"laravel"
-	],
-	"authors": [
-		{
-			"name": "Amritpal Singh",
-			"email": "boparaiamrit@gmail.com"
-		}
-	],
-	"require": {
-		"php": ">=5.4.0",
-		"omnipay/common": "2.5.*"
-	},
-	"autoload": {
-		"psr-4": {
-			"Boparaiamrit\\Omnipay\\": "src"
-		}
-	},
-	"minimum-stability": "dev"
+  "name": "boparaiamrit/omnipay",
+  "description": "Integerates Omnipay with Laravel and provides an easy configuration.",
+  "keywords": [
+    "omnipay",
+    "payments",
+    "laravel"
+  ],
+  "authors": [
+    {
+      "name": "Amritpal Singh",
+      "email": "boparaiamrit@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "omnipay/common": "2.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Boparaiamrit\\Omnipay\\": "src"
+    }
+  },
+  "minimum-stability": "dev"
 }

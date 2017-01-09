@@ -2,8 +2,12 @@
 
 use Illuminate\Support\Facades\Facade;
 
-class OmnipayFacade extends Facade {
+class OmnipayFacade extends Facade
+{
 
-    protected static function getFacadeAccessor() { return 'omnipay'; }
+    protected static function getFacadeAccessor()
+    {
+        return 'omnipay';
+    }
 
 }
